@@ -299,30 +299,26 @@ body {
                 color: #fff;
                 font-size: 1.5rem;
                 padding: 0 0 1.1rem 5.5rem;
-                i{
-                   
-                font-family: FiraCodeLight;
-                font-feature-settings: "calt" 1;
-                text-rendering: optimizeLegibility;
+                i {
+                    font-family: FiraCodeLight;
+                    font-feature-settings: "calt" 1;
+                    text-rendering: optimizeLegibility;
                 }
                 .css-brace {
                     color: #6cdae5;
                 }
-                .css-selector{
+                .css-selector {
                     color: #f8b84d;
                 }
-                .css-properties{
-                    color:#fff;
+                .css-properties {
+                    color: #fff;
                     padding-left: 4.5rem;
                 }
-                .css-value{
+                .css-value {
                     color: #ea8151;
-                    padding-left:1rem;
+                    padding-left: 1rem;
                 }
             }
         }
-    }
-
-    #news {
     }
 }
