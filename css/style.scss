@@ -258,15 +258,16 @@ body {
                 font-size: 1.7rem;
                 padding-bottom: 1.1rem;
             }
-            .address{
+
+            .address {
                 opacity: .5;
             }
-            
+
 
             &::after {
                 position: absolute;
                 content: counter(section);
-                top: 5px;
+                top: 0;
                 left: 10px;
                 color: #777;
                 font-size: 1.6rem;
