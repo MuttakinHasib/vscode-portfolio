@@ -333,7 +333,7 @@ body {
   opacity: 0.5;
 }
 
-.page .tab-content .line .css {
+.page .tab-content .line .css, .page .tab-content .line .pro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,27 +349,27 @@ body {
   padding: 0 0 1.1rem 5.5rem;
 }
 
-.page .tab-content .line .css i {
+.page .tab-content .line .css i, .page .tab-content .line .pro i {
   font-family: FiraCodeLight;
   -webkit-font-feature-settings: "calt" 1;
           font-feature-settings: "calt" 1;
   text-rendering: optimizeLegibility;
 }
 
-.page .tab-content .line .css .css-brace {
+.page .tab-content .line .css .css-brace, .page .tab-content .line .pro .css-brace {
   color: #6cdae5;
 }
 
-.page .tab-content .line .css .css-selector {
+.page .tab-content .line .css .css-selector, .page .tab-content .line .pro .css-selector {
   color: #f8b84d;
 }
 
-.page .tab-content .line .css .css-properties {
+.page .tab-content .line .css .css-properties, .page .tab-content .line .pro .css-properties {
   color: #fff;
   padding-left: 4.5rem;
 }
 
-.page .tab-content .line .css .css-value {
+.page .tab-content .line .css .css-value, .page .tab-content .line .pro .css-value {
   color: #ea8151;
   padding-left: 1rem;
 }
