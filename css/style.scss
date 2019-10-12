@@ -56,7 +56,7 @@ body {
     margin: auto;
     display: flex;
     width: 85%;
-    height: 80%;
+    height: 85vh;
     flex-direction: column;
     justify-items: flex-start;
     border-radius: 0.5rem;
@@ -169,13 +169,16 @@ body {
     display: flex;
     flex-direction: column;
 
+    // #home{
+    //     display: none;
+    // }
+
     button {
         border: none;
         background: transparent;
         cursor: pointer;
         color: #fff;
-        opacity: 1;
-        font-family: 'Rubik', sans-serif;
+        font-family: "Rubik", sans-serif;
     }
 
     .tab-link {
@@ -186,7 +189,7 @@ body {
         text-align: center;
         align-items: center;
         text-overflow: ellipsis;
-        border-bottom: .1rem solid transparent;
+        border-bottom: 0.1rem solid transparent;
         user-select: none;
         float: left;
     }
@@ -196,7 +199,7 @@ body {
     }
 
     .icon-md {
-        color: #1E90FF;
+        color: #1e90ff;
     }
 
     .icon-html {
@@ -204,7 +207,7 @@ body {
     }
 
     .icon-css {
-        color: #2965F1;
+        color: #2965f1;
     }
 
     .tab-content {
@@ -236,7 +239,7 @@ body {
 
             .hero-name {
                 font-family: FiraCodeMedium;
-                font-feature-settings: "calt"1;
+                font-feature-settings: "calt" 1;
                 text-rendering: optimizeLegibility;
                 white-space: nowrap;
                 word-break: break-all;
@@ -247,10 +250,11 @@ body {
                 color: #fff;
             }
 
-            p {
+            .hero-info,
+            .address {
                 // font-family: FiraCodeMedium;
                 font-family: FiraCodeLight;
-                font-feature-settings: "calt"1;
+                font-feature-settings: "calt" 1;
                 text-rendering: optimizeLegibility;
                 white-space: pre-wrap;
                 word-break: break-all;
@@ -260,9 +264,8 @@ body {
             }
 
             .address {
-                opacity: .5;
+                opacity: 0.5;
             }
-
 
             &::after {
                 position: absolute;
@@ -273,6 +276,53 @@ body {
                 font-size: 1.6rem;
                 font-family: FiraCodeMedium;
             }
+            .comment {
+                text-align: start;
+                font-family: FiraCodeLight;
+                font-feature-settings: "calt" 1;
+                text-rendering: optimizeLegibility;
+                white-space: pre-wrap;
+                word-break: break-all;
+                color: #fff;
+                font-size: 1.5rem;
+                padding: 0 0 1.1rem 5rem;
+                opacity: 0.5;
+            }
+            .css {
+                display: flex;
+                text-align: start;
+                font-family: FiraCodeLight;
+                font-feature-settings: "calt" 1;
+                text-rendering: optimizeLegibility;
+                white-space: pre-wrap;
+                word-break: break-all;
+                color: #fff;
+                font-size: 1.5rem;
+                padding: 0 0 1.1rem 5.5rem;
+                i{
+                   
+                font-family: FiraCodeLight;
+                font-feature-settings: "calt" 1;
+                text-rendering: optimizeLegibility;
+                }
+                .css-brace {
+                    color: #6cdae5;
+                }
+                .css-selector{
+                    color: #f8b84d;
+                }
+                .css-properties{
+                    color:#fff;
+                    padding-left: 4.5rem;
+                }
+                .css-value{
+                    color: #ea8151;
+                    padding-left:1rem;
+                }
+            }
         }
+    }
+
+    #news {
     }
 }

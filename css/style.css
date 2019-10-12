@@ -63,7 +63,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 85%;
-  height: 80%;
+  height: 85vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -210,8 +210,7 @@ body {
   background: transparent;
   cursor: pointer;
   color: #fff;
-  opacity: 1;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .page .tab-link {
@@ -226,7 +225,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-overflow: ellipsis;
-  border-bottom: .1rem solid transparent;
+  border-bottom: 0.1rem solid transparent;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -239,7 +238,7 @@ body {
 }
 
 .page .icon-md {
-  color: #1E90FF;
+  color: #1e90ff;
 }
 
 .page .icon-html {
@@ -247,7 +246,7 @@ body {
 }
 
 .page .icon-css {
-  color: #2965F1;
+  color: #2965f1;
 }
 
 .page .tab-content {
@@ -293,7 +292,8 @@ body {
   color: #fff;
 }
 
-.page .tab-content .line p {
+.page .tab-content .line .hero-info,
+.page .tab-content .line .address {
   font-family: FiraCodeLight;
   -webkit-font-feature-settings: "calt" 1;
           font-feature-settings: "calt" 1;
@@ -306,7 +306,7 @@ body {
 }
 
 .page .tab-content .line .address {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .page .tab-content .line::after {
@@ -317,5 +317,60 @@ body {
   color: #777;
   font-size: 1.6rem;
   font-family: FiraCodeMedium;
+}
+
+.page .tab-content .line .comment {
+  text-align: start;
+  font-family: FiraCodeLight;
+  -webkit-font-feature-settings: "calt" 1;
+          font-feature-settings: "calt" 1;
+  text-rendering: optimizeLegibility;
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0 0 1.1rem 5rem;
+  opacity: 0.5;
+}
+
+.page .tab-content .line .css {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: start;
+  font-family: FiraCodeLight;
+  -webkit-font-feature-settings: "calt" 1;
+          font-feature-settings: "calt" 1;
+  text-rendering: optimizeLegibility;
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0 0 1.1rem 5.5rem;
+}
+
+.page .tab-content .line .css i {
+  font-family: FiraCodeLight;
+  -webkit-font-feature-settings: "calt" 1;
+          font-feature-settings: "calt" 1;
+  text-rendering: optimizeLegibility;
+}
+
+.page .tab-content .line .css .css-brace {
+  color: #6cdae5;
+}
+
+.page .tab-content .line .css .css-selector {
+  color: #f8b84d;
+}
+
+.page .tab-content .line .css .css-properties {
+  color: #fff;
+  padding-left: 4.5rem;
+}
+
+.page .tab-content .line .css .css-value {
+  color: #ea8151;
+  padding-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
