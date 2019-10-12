@@ -265,6 +265,16 @@ body {
   width: 100%;
 }
 
+.page .tab-content .line .html-tag {
+  font-family: 'Over the Rainbow', cursive;
+  text-align: start;
+  color: #eee;
+  font-size: 1.7rem;
+  padding-left: 5rem;
+  letter-spacing: 1;
+  font-weight: 600;
+}
+
 .page .tab-content .line .bio {
   display: block;
   margin: auto;
@@ -298,7 +308,7 @@ body {
   -webkit-font-feature-settings: "calt" 1;
           font-feature-settings: "calt" 1;
   text-rendering: optimizeLegibility;
-  white-space: pre-wrap;
+  white-space: normal;
   word-break: break-all;
   color: #fff;
   font-size: 1.7rem;
@@ -312,6 +322,8 @@ body {
 .page .tab-content .line::after {
   position: absolute;
   content: counter(section);
+  padding-right: 5rem;
+  display: inline-block;
   top: 0;
   left: 10px;
   color: #777;
@@ -325,7 +337,7 @@ body {
   -webkit-font-feature-settings: "calt" 1;
           font-feature-settings: "calt" 1;
   text-rendering: optimizeLegibility;
-  white-space: pre-wrap;
+  white-space: normal;
   word-break: break-all;
   color: #fff;
   font-size: 1.5rem;

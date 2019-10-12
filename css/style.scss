@@ -224,6 +224,16 @@ body {
             margin: auto;
             width: 100%;
 
+            .html-tag{
+                font-family: 'Over the Rainbow', cursive;
+                text-align: start;
+                color: #eee;
+                font-size: 1.7rem;
+                padding-left: 5rem;
+                letter-spacing: 1;
+                font-weight: 600;
+            }
+
             .bio {
                 display: block;
                 margin: auto;
@@ -235,6 +245,8 @@ body {
                 img {
                     width: 100%;
                 }
+
+                
             }
 
             .hero-name {
@@ -256,7 +268,7 @@ body {
                 font-family: FiraCodeLight;
                 font-feature-settings: "calt" 1;
                 text-rendering: optimizeLegibility;
-                white-space: pre-wrap;
+                white-space: normal;
                 word-break: break-all;
                 color: #fff;
                 font-size: 1.7rem;
@@ -270,6 +282,8 @@ body {
             &::after {
                 position: absolute;
                 content: counter(section);
+                padding-right: 5rem;
+                display: inline-block;
                 top: 0;
                 left: 10px;
                 color: #777;
@@ -281,7 +295,7 @@ body {
                 font-family: FiraCodeLight;
                 font-feature-settings: "calt" 1;
                 text-rendering: optimizeLegibility;
-                white-space: pre-wrap;
+                white-space: normal;
                 word-break: break-all;
                 color: #fff;
                 font-size: 1.5rem;
